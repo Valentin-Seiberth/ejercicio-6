@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #fff;
+}
+.aplicacion {
+  text-align: center;
+  padding: 20px;
+}
+.barra-busqueda {
+  margin-bottom: 20px;
+}
+.barra-busqueda input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 10px;
+}
+
+.barra-busqueda button {
+  padding: 10px 15px;
+  background-color: #ff5c5c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.grid-peliculas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.tarjeta {
+  background: #1f1f1f;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+.tarjeta img {
+  width: 100%;
+  border-radius: 5px;
+}
+.rating {
+  margin-top: 10px;
+}
