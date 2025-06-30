@@ -1,8 +1,9 @@
-import React, { useState } from "react";
-import TarjetaPelicula from "./app/TarjetaPelicula";
-import "./app/estilos.css";
-const CLAVE_API_OMDB = "50361992";
+"use client";
 
+import React, { useState } from "react";
+import TarjetaPelicula from "./TarjetaPelicula";
+import "./estilos.css";
+const CLAVE_API_OMDB = "50361992";
 export default function App() {
   const [termino, setTermino] = useState("");
   const [peliculas, setPeliculas] = useState([]);
